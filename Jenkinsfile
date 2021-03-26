@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        bat 'gradle mike'
+        bat 'gradle build'
       }
     }
 
